@@ -1,0 +1,54 @@
+.canvas{
+	background-color: #55a6c8;
+    border-radius: 7px;
+}
+body{
+    background: linear-gradient(to right, #718ab4b9, #0afebdb7);
+}
+.container{
+    padding-top: 40px;
+    padding: 5%;
+    margin-top: 30px;
+    border-radius: 40px;
+    border-style: double;
+    border: 5px solid  blue;
+    background: linear-gradient(to right, #d18da4, #7fc34e);
+}
+canvas{
+    margin-left: auto;
+    border-style: dotted;
+    border-color: black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 60px;
+    text-shadow: 4px 4px rgb(243, 6, 6);
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container  {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
